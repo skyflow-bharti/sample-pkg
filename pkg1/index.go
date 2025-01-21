@@ -2,6 +2,7 @@ package pkg1
 
 import (
 	"fmt"
+
 	"github.com/skyflow-bharti/sample-pkg/pkg2"
 )
 

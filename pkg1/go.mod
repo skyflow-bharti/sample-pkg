@@ -2,4 +2,6 @@ module github.com/skyflow-bharti/sample-pkg/pkg1
 
 go 1.20
 
-require github.com/skyflow-bharti/sample-pkg/pkg2 v0.0.0-20250115171327-cf600067e489 // indirect
+replace github.com/skyflow-bharti/sample-pkg/v1/pkg2 latest => /Users/bharts/Desktop/sample-pkg/v1/pkg2
+
+require github.com/skyflow-bharti/sample-pkg/v1/pkg2 latest
